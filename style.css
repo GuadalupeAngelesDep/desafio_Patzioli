@@ -1,0 +1,48 @@
+/*Styles de mobile*/
+/*Seccion inicio*/
+/*Seccion Nuevos*/
+/*Seccion catalogo*/
+/*Seccion contactanos*/
+/*Seccion footer*/
+/*Styles de desktop*/
+/*Seccion inicio*/
+/*Seccion Nuevos*/
+/*Seccion catalogo*/
+/*Seccion contactanos*/
+/*seccion botones*/
+h1 {
+  color: hotpink;
+}
+
+.container__buttons {
+  position: absolute;
+  width: 960px;
+  height: 589px;
+  left: 0px;
+}
+.container__buttons .div__background--gradient {
+  position: absolute;
+  width: 960px;
+  height: 589px;
+  z-index: 1;
+}
+
+.text__title--center {
+  position: relative;
+  width: 470px;
+  height: 62px;
+  left: 245px;
+  z-index: 5;
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+/*Seccion footer*//*# sourceMappingURL=style.css.map */
