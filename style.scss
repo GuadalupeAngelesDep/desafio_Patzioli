@@ -20,46 +20,20 @@
     /*Seccion contactanos*/
 
     /*seccion botones*/
-h1 {
-    color: hotpink;
-}
 
-    .container__buttons {
-        position: absolute;
-        width: 960px;
-        height: 589px;
-        left: 0px;
-       
-        .div__background--gradient {
-            position: absolute;
-            width: 960px;
-            height: 589px;
-            z-index: 1;           
-            
-        }
-    }
-
-    .text__title--center {
-        position: relative;
-        width: 470px;
-        height: 62px;
-        left: 245px;
-        z-index: 5;
-
-        font-family: 'Abril Fatface';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 43px;
+    div {
         display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.05em;
-
-        color: #000000;
-
     }
 
+    .text__title--center{
+        width: 400px;
+        height: 62px;
+    }
+
+    .button__black  {
+        width: 300px;
+        height: 100px;  
+    }
 
 
 
