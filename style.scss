@@ -1,23 +1,66 @@
+@import './variables.scss';
+
 /*Styles de mobile*/
-   /*Seccion inicio*/
-
-    /*Seccion Nuevos*/
-
-    /*Seccion catalogo*/
-
-    /*Seccion contactanos*/
-
-    /*Seccion footer*/
-
-@media only screen and(min-width:768px) {
-    /*Styles de desktop*/
-   /*Seccion inicio*/
-
-    /*Seccion Nuevos*/
-
-    /*Seccion catalogo*/
-
-    /*Seccion contactanos*/
-
-    /*Seccion footer*/
+body {
+    background-color: $background-color;
 }
+
+/*Seccion inicio*/
+
+/*Seccion Nuevos*/
+
+/*Seccion catalogo*/
+#piano_catalog {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.target_piano {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    background-color: $color-primario-white;
+    border-radius: 8px;
+    width: 250px;
+    height: 350px;
+    box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+}
+
+.target_piano h4 {
+    font-family: $tipografia-titles;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.container_description {
+    display: flex;
+    padding: 0;
+    gap: 1rem;
+}
+
+.title_description {
+    list-style-type: none;
+}
+
+.car {
+    background-color: $color-primario-black;
+    width: 36px;
+    height: 36px;
+}
+
+.price {
+    width: 161px;
+    height: 36px;
+    border: 1px solid $color-primario-black;
+}
+
+/*Seccion contactanos*/
+
+/*Seccion footer*/
+
+@media (min-width: 768) {}
