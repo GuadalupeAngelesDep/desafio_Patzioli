@@ -21,6 +21,8 @@
 .list {
   display: flex;
   width: 500px;
+  list-style: none;
+  display: none;
 }
 
 .company_icon {
@@ -108,9 +110,9 @@
   margin-top: 60px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
   .list {
-    display: none;
+    display: block;
   }
   .nav_list_img {
     display: flex;
