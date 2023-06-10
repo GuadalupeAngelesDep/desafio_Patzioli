@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.app_header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navmenu {
+  padding: 10px;
+  display: flex;
+  width: 700px;
+  justify-content: flex-end;
+}
+
+.list {
+  display: flex;
+  width: 500px;
+}
+
+.company_icon {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.button_contact {
+  background-color: black;
+  color: white;
+  width: 129px;
+  height: 32px;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+}
+
+.cart {
+  width: 25px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: yellow;
+  text-align: center;
+  position: relative;
+  left: 13px;
+  bottom: 45px;
+}
+
+.art {
+  margin-bottom: 30px;
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.intro_instituto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.intro_courses {
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-right: 13px;
+  margin-top: 30px;
+}
+
+.intro_get {
+  height: 38px;
+  width: 150px;
+  border: 2px solid black;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 13px;
+  margin-top: 30px;
+}
+
+.intro_piano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 992px) {
+  .list {
+    display: none;
+  }
+  .nav_list_img {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+/*top left absolute bor rad 10px width 15px*//*# sourceMappingURL=styles.css.map */
