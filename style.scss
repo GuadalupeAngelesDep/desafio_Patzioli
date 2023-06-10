@@ -89,7 +89,6 @@
         background-size:cover;
         background-image: url(./imagenes/fondo_new.jpeg);
         box-sizing: border-box;
-
     }
 
     #seccion_new h2 {
@@ -101,12 +100,13 @@
     
     .container_flex_new {
         text-align: left;
-        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
     
+    /* Apartir de aqui cambiar stilos para adaptar y leminar los que se repitan y que 
+    no se les haran modificaciones*/
     .container_img_piano_new img {
         width: 40vw;
     }
