@@ -20,22 +20,33 @@
     /*Seccion contactanos*/
 
     /*seccion botones*/
-
-    div {
-        display: flex;
+    .div__container--buttons {
+        margin: 20px;
+        
     }
 
-    .text__title--center{
-        width: 400px;
+
+    .text__title--center { 
+          
         height: 62px;
+        text-align: center;
+        color: black;
     }
 
-    .button__black  {
-        width: 300px;
-        height: 100px;  
+    .button__container {
+        display: inline;
+        width: 328.32px;
+        height: 103.21px;
+        border-radius: 55px;
+        margin: 20px;
+        // background-color: black;
     }
 
+    .buttons__petrof-paristain {
+        flex-wrap: wrap;
+    }
 
+   
 
     /*Seccion footer*/
 // }
