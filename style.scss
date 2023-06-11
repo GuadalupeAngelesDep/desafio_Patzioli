@@ -164,6 +164,44 @@
   
       }
    }
+   .contact-info__container{
+      display: flex;
+      .info__input{
+          box-sizing: border-box;
+          width: 464px;
+          height: 36px;
+          left: 15.55px;
+          background: rgba(0, 0, 0, 0.65);
+          border: 0.5px solid $color-primario-white;
+          border-radius: 3px;
+          margin-bottom: 16px;
+          font-family: $tipografia-parrafos;
+          font-weight: 700;
+      }
+      }
+      .more__input{
+         width: 464px;
+         height: 150px;
+         background: rgba(0, 0, 0, 0.65);
+         border: 0.5px solid $color-primario-white;
+         border-radius: 4px;
+         margin-bottom: 16px;
+         font-family: $tipografia-parrafos;
+         font-weight: 700;
+         
+  }
+  button {
+         width: 288px;
+         height: 32px;
+         left: 248px;
+         top: 3178px;
+         flex-wrap: nowrap;
+         color: $color-primario-white;
+         background: $color-primario-black;
+         border-radius: 8px;
+         margin: 10px;
+         font-family: $tipografia-parrafos;
+  }   
     /*Seccion footer*/
     
 }
