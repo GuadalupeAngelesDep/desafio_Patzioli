@@ -11,38 +11,31 @@
 
 
 
-* {
-    margin: 0px; //verificar elementos necesarios con 0 padding y margin//
-    padding: 0px;
-    list-style: none;
-}
+
 
 .app_header {
-    margin: 32px;
+    margin: 0px;
+    padding: 0px;
     height: 44px;
-    width: 100%;
+    
     display: flex;
     justify-content: space-between;
+    
+
+    // justify-content: space-between;
     
 }
 
 
 
 .navmenu {
-    padding: 10px;
     display: flex;
-    width: 700px;
+    width: 300px;
     justify-content: flex-end;
-
 }
 
 .list {
-    display: flex;
-    width: 500px;
-    // margin-right: 30px;
-    list-style: none;
-    display: none;
-    
+        display: none;
 }
 
 .company_icon {
@@ -63,14 +56,26 @@
 
 
 
+.intro_section_cart{
+    position: relative;
+    // bottom: 30px;
+    // left: 10px;
+    
+}
+
+.intro_picture_cart{
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    
+
+}
+
 .art {
     margin-bottom: 30px;
 }
 
-.img {
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 
 
@@ -130,22 +135,41 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    flex-wrap: wrap-reverse;
+    // flex-wrap: wrap-reverse;
     align-items: end;
+    justify-content: space-between;
     
     
+}
+.intro_aside{
+    height: 100px;
+    position: relative;
+    bottom: 150px;
+}
+
+
+.intro_facebook{
+    margin: 10px;
+}
+.intro_linkedin{
+    margin: 10px;
+}
+.intro_twitter{
+    margin: 10px;
 }
 
 
 @media only screen and (min-width:992px) {
     .list{
+        display: flex;
+        justify-content: flex-end;
+        // width: 400px;
+        
+        list-style: none;
         display: block;
     }
 
-    .nav_list_img {
-        display: flex;
-        justify-content: flex-end;
-    }
+   
 
 
 }
@@ -155,4 +179,4 @@
 // }
 
 
-/*top left absolute bor rad 10px width 15px*/
+/*top left absolute bor rad 10px width 10px*/

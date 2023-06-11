@@ -1,28 +1,18 @@
-* {
+.app_header {
   margin: 0px;
   padding: 0px;
-  list-style: none;
-}
-
-.app_header {
-  margin: 32px;
   height: 44px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .navmenu {
-  padding: 10px;
   display: flex;
-  width: 700px;
+  width: 300px;
   justify-content: flex-end;
 }
 
 .list {
-  display: flex;
-  width: 500px;
-  list-style: none;
   display: none;
 }
 
@@ -42,13 +32,18 @@
   border: none;
 }
 
-.art {
-  margin-bottom: 30px;
+.intro_section_cart {
+  position: relative;
 }
 
-.img {
-  display: flex;
-  justify-content: flex-end;
+.intro_picture_cart {
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+}
+
+.art {
+  margin-bottom: 30px;
 }
 
 .intro_instituto {
@@ -104,17 +99,34 @@
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  flex-wrap: wrap-reverse;
   align-items: end;
+  justify-content: space-between;
+}
+
+.intro_aside {
+  height: 100px;
+  position: relative;
+  bottom: 150px;
+}
+
+.intro_facebook {
+  margin: 10px;
+}
+
+.intro_linkedin {
+  margin: 10px;
+}
+
+.intro_twitter {
+  margin: 10px;
 }
 
 @media only screen and (min-width: 992px) {
   .list {
-    display: block;
-  }
-  .nav_list_img {
     display: flex;
     justify-content: flex-end;
+    list-style: none;
+    display: block;
   }
 }
-/*top left absolute bor rad 10px width 15px*//*# sourceMappingURL=styles.css.map */
+/*top left absolute bor rad 10px width 10px*//*# sourceMappingURL=styles.css.map */
