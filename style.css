@@ -1,0 +1,41 @@
+@import url(variables.scss);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+}
+
+/*Styles de mobile*/
+/*Seccion inicio*/
+/*Seccion Nuevos*/
+/*Seccion catalogo*/
+/*Seccion contactanos*/
+@media only screen and (max-width: 992px) {
+  .contact__section {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./imagenes/darius-soodmand-F8E2tks5N04-unsplash\ 1\.png);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .contact-info__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+}
+/*Seccion footer*/
+/*Styles de desktop*/
+/*Seccion inicio*/
+/*Seccion Nuevos*/
+/*Seccion catalogo*/
+/*Seccion contactanos*/
+/*Seccion footer*//*# sourceMappingURL=style.css.map */
