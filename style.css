@@ -10,18 +10,19 @@
 /*Seccion Nuevos*/
 /*Seccion catalogo*/
 /*Seccion contactanos*/
+.contact__section {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./darius-soodmand-F8E2tks5N04-unsplash\ 1.png);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
 @media only screen and (max-width: 992px) {
-  .contact__section {
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./imagenes/darius-soodmand-F8E2tks5N04-unsplash\ 1\ \(1\).png);
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
-    height: 870px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-  }
   .contact-info__container {
     display: flex;
     flex-direction: column;
@@ -64,7 +65,7 @@
     height: 36px;
     left: 15.55px;
     background: rgba(0, 0, 0, 0.65);
-    border: 0.5px solid, white;
+    border: 0.5px solid #ffffff;
     border-radius: 3px;
     margin-bottom: 16px;
     font-family: "Raleway";
@@ -101,7 +102,7 @@
 /*Seccion contactanos*/
 @media only screen and (min-width: 992px) {
   .contact__section {
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./imagenes/darius-soodmand-F8E2tks5N04-unsplash\ 1\ \(1\).png);
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./darius-soodmand-F8E2tks5N04-unsplash\ 1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,11 +142,12 @@
     display: flex;
   }
   .contact-info__container .info__label {
-    width: 288px;
+    width: 450px;
     height: 36px;
     top: 2990px;
-    left: 15.55px;
+    left: 248px;
     text-align: left;
+    justify-content: left;
     margin-top: 24px;
   }
   .contact-info__container {
@@ -155,7 +157,7 @@
     box-sizing: border-box;
     width: 464px;
     height: 36px;
-    left: 15.55px;
+    left: 248px;
     background: rgba(0, 0, 0, 0.65);
     border: 0.5px solid #ffffff;
     border-radius: 3px;
@@ -174,7 +176,7 @@
     font-weight: 700;
   }
   button {
-    width: 288px;
+    width: 464px;
     height: 32px;
     left: 248px;
     top: 3178px;
@@ -185,5 +187,4 @@
     margin: 10px;
     font-family: "Raleway";
   }
-  /*Seccion footer*/
 }/*# sourceMappingURL=style.css.map */
