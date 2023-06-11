@@ -15,7 +15,7 @@
     /*Seccion contactanos*/
     @media only screen and (max-width: 992px){
       .contact__section{
-         background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./imagenes/darius-soodmand-F8E2tks5N04-unsplash\ 1\.png);
+         background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./imagenes/darius-soodmand-F8E2tks5N04-unsplash\ 1\ \(1\).png);
          background-position:center;
          background-size: cover;
          width: 100vw;
@@ -114,7 +114,56 @@
     /*Seccion catalogo*/
 
     /*Seccion contactanos*/
-
+    @media only screen and (min-width: 992px){
+    .contact__section{
+      background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./imagenes/darius-soodmand-F8E2tks5N04-unsplash\ 1\ \(1\).png);
+      background-position:center;
+      background-size:cover;
+      background-repeat: no-repeat;
+      width: 100vw;
+      height: 870px;
+      display: flex;
+      flex-direction:column;
+      align-items:center;
+      justify-items: center;
+   }
+   .contact-info__container {
+      display: flex; 
+      flex-direction:column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      position: relative;
+   }
+   h3 {
+      height: 62px;
+      margin-top: 39px;
+      font-family: $tipografia-titles;
+      font-weight: 900;
+      font-size: 24px;
+   }
+   p {
+      justify-content: center;
+      width: 561px;
+      height: 57px;
+      font-family: $tipografia-parrafos;
+      font-weight: 400;
+      font-size: 16px;
+      text-align:center;
+      margin: 0, 561,57;
+   }
+   .contact-info__container {
+      display: flex;
+      .info__label{
+          width: 288px;
+          height: 36px;
+          top:2990px;
+          left: 15.55px;
+          text-align: left;
+          margin-top: 24px;
+  
+      }
+   }
     /*Seccion footer*/
-
-   
+    
+}
