@@ -1,4 +1,10 @@
-@import url(variables.scss);
+/*Colocar Varibles a utilizar como fuente general,
+colores, estilos en comun etc.*/
+/*Seccion inicio*/
+/*Seccion Nuevos*/
+/*Seccion catalogo*/
+/*Seccion contactanos*/
+/*Seccion footer*/
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +36,20 @@
     justify-content: center;
     width: 100%;
     position: relative;
+  }
+  h3 {
+    margin-top: 39px;
+    font-family: "Abril Fatface";
+    font-weight: 900;
+    font-size: 24px;
+  }
+  p {
+    margin: 10px;
+    margin-top: 29px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
   }
 }
 /*Seccion footer*/
