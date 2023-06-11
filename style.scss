@@ -21,32 +21,130 @@
 
     /*seccion botones*/
     .div__container--buttons {
-        margin: 20px;
-        
+        background: url(imagenes/Rectangle\ 9.png);
+        opacity: 1;
     }
 
 
-    .text__title--center { 
-          
+    .container__button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;        
+    }
+
+    .text__title--center {           
         height: 62px;
         text-align: center;
         color: black;
     }
 
     .button__container {
-        display: inline;
         width: 328.32px;
         height: 103.21px;
         border-radius: 55px;
         margin: 20px;
-        // background-color: black;
+        background-color: black
+    }
+    .image__circle--logo {        
+        display: flex;
+        padding: 5px;      
+        .text__item-petrof {          
+            display: inline-block;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-left: 90px;
+        }
     }
 
-    .buttons__petrof-paristain {
-        flex-wrap: wrap;
+    .image__circle--logo1 {        
+        display: flex;
+        padding: 5px;      
+        .text__item-parispian {          
+            display: inline-block;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-left: 90px;
+        }
     }
 
-   
+    .image__circle--logo2 {        
+        display: flex;
+        padding: 5px;   
+        flex-direction: row-reverse;   
+        .text__item-helfilti {          
+            display: inline-block;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-right: 90px;
+        }
+    }
 
+    .image__circle--logo3 {        
+        display: flex;
+        padding: 5px;   
+        flex-direction: row-reverse;   
+        .text__item-bookpa {          
+            display: inline-block;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-right: 90px;
+        }
+    }
+
+    .image__circle--logo4 {        
+        display: flex;
+        padding: 5px; 
+        flex-direction: row-reverse;     
+        .text__item-yamaha {          
+            display: inline-block;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-left: 90px;
+        }
+    }
+
+    .image__circle--logo5 {        
+        display: flex;
+        padding: 5px;      
+        .text__item-pianotwo {          
+            display: inline-block;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-left: 90px;
+        }
+    }
+
+    .image__circle--logo6 {        
+        display: flex;
+        padding: 5px;      
+        .text__item-pianafmar {          
+            display: inline-block;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-left: 90px;
+        }
+    }
+
+
+
+
+
+
+    
+
+        
+        
+
+     
+    
+    
+  
     /*Seccion footer*/
 // }

@@ -11,7 +11,14 @@
 /*Seccion contactanos*/
 /*seccion botones*/
 .div__container--buttons {
-  margin: 20px;
+  background: url(imagenes/Rectangle\ 9.png);
+  opacity: 1;
+}
+
+.container__button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .text__title--center {
@@ -21,15 +28,98 @@
 }
 
 .button__container {
-  display: inline;
   width: 328.32px;
   height: 103.21px;
   border-radius: 55px;
   margin: 20px;
+  background-color: black;
 }
 
-.buttons__petrof-paristain {
-  flex-wrap: wrap;
+.image__circle--logo {
+  display: flex;
+  padding: 5px;
+}
+.image__circle--logo .text__item-petrof {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-left: 90px;
+}
+
+.image__circle--logo1 {
+  display: flex;
+  padding: 5px;
+}
+.image__circle--logo1 .text__item-parispian {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-left: 90px;
+}
+
+.image__circle--logo2 {
+  display: flex;
+  padding: 5px;
+  flex-direction: row-reverse;
+}
+.image__circle--logo2 .text__item-helfilti {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-right: 90px;
+}
+
+.image__circle--logo3 {
+  display: flex;
+  padding: 5px;
+  flex-direction: row-reverse;
+}
+.image__circle--logo3 .text__item-bookpa {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-right: 90px;
+}
+
+.image__circle--logo4 {
+  display: flex;
+  padding: 5px;
+  flex-direction: row-reverse;
+}
+.image__circle--logo4 .text__item-yamaha {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-left: 90px;
+}
+
+.image__circle--logo5 {
+  display: flex;
+  padding: 5px;
+}
+.image__circle--logo5 .text__item-pianotwo {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-left: 90px;
+}
+
+.image__circle--logo6 {
+  display: flex;
+  padding: 5px;
+}
+.image__circle--logo6 .text__item-pianafmar {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-left: 90px;
 }
 
 /*Seccion footer*//*# sourceMappingURL=style.css.map */
