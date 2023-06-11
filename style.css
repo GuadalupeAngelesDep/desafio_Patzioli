@@ -9,7 +9,7 @@ colores, estilos en comun etc.*/
 /*Seccion Nuevos*/
 #seccion_new {
   text-align: center;
-  background-image: url(./imagenes/fondo_new.jpeg), linear-gradient(180deg, #FFFFFF 0%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 80.04%, #FFFFFF 100%);
+  background-image: url(./imagenes/fondo_new.jpeg), linear-gradient(180deg, #ffffff 0%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 80.04%, #ffffff 100%);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -35,7 +35,7 @@ colores, estilos en comun etc.*/
   color: #ffffff;
   padding: 0 1rem;
   box-sizing: border-box;
-  height: 350px;
+  height: 480px;
 }
 
 .container_info h3 {
@@ -103,7 +103,7 @@ colores, estilos en comun etc.*/
     justify-content: space-between;
   }
   /* Apartir de aqui cambiar stilos para adaptar y leminar los que se repitan y que 
-  no se les haran modificaciones*/
+    no se les haran modificaciones*/
   .container_img_piano_new img {
     width: 40vw;
   }
@@ -113,7 +113,7 @@ colores, estilos en comun etc.*/
     box-sizing: border-box;
   }
   .container_info h3 {
-    font-size: 50px;
+    font-size: 2 rem;
     font-weight: 900;
   }
   .container_valoration {
@@ -137,4 +137,16 @@ colores, estilos en comun etc.*/
   /*Seccion catalogo*/
   /*Seccion contactanos*/
   /*Seccion footer*/
-}/*# sourceMappingURL=style.css.map */
+}
+@media (max-width: 992px) {
+  .container_info {
+    margin-top: 8%;
+  }
+}
+@media (max-width: 600px) {
+  .container_info {
+    margin-top: 2%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
