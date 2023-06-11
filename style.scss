@@ -41,16 +41,35 @@ body {
     display: flex;
     padding: 0;
     gap: 1rem;
+    font-size: 13px;
+    
 }
 
 .title_description {
     list-style-type: none;
 }
 
+.container_shopping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.container_shopping >.price__button {
+    width: 150px;
+    height: 33px;
+}
+
+
+.Piano__size {
+    height: 180px;
+}
+
 .car {
     background-color: $color-primario-black;
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .price {
@@ -63,4 +82,13 @@ body {
 
 /*Seccion footer*/
 
-@media (min-width: 768) {}
+@media only screen and (min-width: 992) {
+    .target_piano {
+        position: absolute;
+    .Piano_catalog > .target_piano {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+}
