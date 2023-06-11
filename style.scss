@@ -1,10 +1,4 @@
 @import "vars";
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   flex-wrap: nowrap;
-}
 /*Styles de mobile*/
    /*Seccion inicio*/
 
@@ -13,74 +7,109 @@
     /*Seccion catalogo*/
 
     /*Seccion contactanos*/
-    .contact__section{
-      background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./darius-soodmand-F8E2tks5N04-unsplash\ 1.png);
-      background-position:center;
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      flex-wrap: nowrap;   
+  }
+  
+  .contact__box {
+      background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./imagenes/darius-soodmand-F8E2tks5N04-unsplash\ 1\ \(1\).png);
+      background-position: center;
       background-size: cover;
       width: 100vw;
       height: 870px;
       display: flex;
-      flex-direction:column;
-      align-items:center;
-      justify-items: center;
-   }
-   
-   @media only screen and (max-width: 992px){
-   .contact-info__container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .contact__container {
       display: flex; 
       flex-direction:column;
       align-items: center;
       justify-content: center;
       width: 100%;
       position: relative;
-       
-   }
-   h3 {
-      margin-top: 39px;
-      font-family: $tipografia-titles;
-      font-weight: 900;
-      font-size: 24px; 
-   }
+     }
   
-  
-   p{
-      margin: 10px;
-      margin-top: 29px;    
-      font-family: $tipografia-parrafos;
-      font-weight: 400;
-      font-size: 16px;
-      text-align: center;
-   }
-  
-   .contact-info__container {
-      display: flex;
-      .info__label{
-          width: 288px;
-          height: 36px;
-          top:2990px;
-          left: 15.55px;
-          text-align: left;
-          margin-top: 24px;
-  
+     .contact_text {
+      display: flex; 
+      flex-direction:column;
+      flex-wrap: wrap;
+      align-content: space-around;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      position: relative;
+     }
+   
+     @media only screen and (max-width: 960px) {
+      .contact__box {
+          background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./imagenes/darius-soodmand-F8E2tks5N04-unsplash\ 1\ \(1\).png);
+          background-position: center;
+          background-size: cover;
+          width: 100vw;
+          height: 870px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
       }
-   }
-  
-   .contact-info__container{
-      display: flex;
-      .info__input{
-          box-sizing: border-box;
-          width: 288px;
-          height: 36px;
-          left: 15.55px;
-          background: rgba(0, 0, 0, 0.65);
-          border: 0.5px solid $color-primario-white;
-          border-radius: 3px;
-          margin-bottom: 16px;
-          font-family: $tipografia-parrafos;
-          font-weight: 700;
+      
+      h3 {
+       font-family: $tipografia-titles;
+       font-weight: 900;
+       font-size: 24px; 
+       padding: auto;
       }
-   }
-   .more__input{
+  
+      span {
+       height: 87px;
+       width: 236px;
+       left: 0px;
+       top: 2742px;
+       border-radius: 0px;
+  
+       margin: 36px;
+       margin-top: 29px;    
+       font-family: $tipografia-parrafos;
+       font-weight: 400;
+       font-size: 16px;
+       text-align: center;
+      }
+  
+      .contact__container {
+          display: flex;
+          .info__text{
+           width: 219px;
+           height: 36px;
+           top:2990px;
+           left: 15.55px;
+           text-align: left;
+           margin-top: 24px;
+           font-family: $tipografia-parrafos;
+           font-weight: 700;
+           size: 16px;
+          }
+      }
+      .contact__container {
+          display: flex;
+          .info__box{
+           box-sizing: border-box;
+           width: 288px;
+           height: 36px;
+           left: 15.55px;
+           background: rgba(0, 0, 0, 0.65);
+           border: 0.5px solid $color-primario-white;
+           border-radius: 3px;
+           margin-bottom: 16px;
+           font-family: $tipografia-parrafos;
+           font-weight: 700;
+          }
+      }
+      .more_info__box {
           width: 288px;
           height: 150px;
           background: rgba(0, 0, 0, 0.65);
@@ -90,8 +119,9 @@
           font-family: $tipografia-parrafos;
           font-weight: 700;
           
-   }
-   button {
+      }
+  
+      .submit_button {
           width: 288px;
           height: 32px;
           left: 248px;
@@ -102,7 +132,7 @@
           border-radius: 8px;
           margin: 10px;
           font-family: $tipografia-parrafos; 
-   }
+      }
   }
    
       
@@ -118,96 +148,86 @@
     /*Seccion catalogo*/
 
     /*Seccion contactanos*/
-    @media only screen and (min-width: 992px){
-      .contact__section{
-          background:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./darius-soodmand-F8E2tks5N04-unsplash\ 1.png);
-          background-position:center;
-          background-size:cover;
-          background-repeat: no-repeat;
-          width: 100vw;
-          height: 870px;
-          display: flex;
-          flex-direction:column;
-          align-items:center;
-          justify-items: center;
-       }
-       .contact-info__container {
-          display: flex; 
-          flex-direction:column;
-          align-items: center;
-          justify-content: center;
-          width: 100%;
-          position: relative;
-       }
-       h3 {
-          height: 62px;
-          margin-top: 39px;
+    @media only screen and (min-width: 960px){
+      h3 {
           font-family: $tipografia-titles;
           font-weight: 900;
-          font-size: 24px;
-       }
-       p {
-          justify-content: center;
-          width: 561px;
-          height: 57px;
-          font-family: $tipografia-parrafos;
-          font-weight: 400;
-          font-size: 16px;
-          text-align:center;
-          margin: 0, 561,57;
-       }
-       .contact-info__container {
+          font-size: 32px; 
+          padding: auto;
+         }
+      
+      span {
+       height: 57px;
+       width: 448px;
+       left: 199px;
+       top: 2653px;
+       border-radius: nullpx;
+       margin: 36px;
+       margin-top: 29px;    
+       font-family: $tipografia-parrafos;
+       font-weight: 400;
+       font-size: 16px;
+       text-align: center;
+       }   
+
+      .contact__container {
           display: flex;
-          .info__label{
-              width: 450px;
-              height: 36px;
-              top:2990px;
-              left: 248px;
-              text-align: left;
-              justify-content: left;
-              margin-top: 24px;
-      
+           .info__text{
+            height: 36px;
+            width: 106px;
+            left: 248px;
+            top: 2752px;
+            border-radius: nullpx; 
+            text-align: left;
+            margin-top: 24px;
+            font-family: $tipografia-parrafos;
+            font-weight: 700;
+            size: 16px;
           }
-       }
-      
-       .contact-info__container{
+      }
+      .contact__container {
           display: flex;
-          .info__input{
-              box-sizing: border-box;
-              width: 464px;
-              height: 36px;
-              left: 248px;
-              background: rgba(0, 0, 0, 0.65);
-              border: 0.5px solid $color-primario-white;
-              border-radius: 3px;
-              margin-bottom: 16px;
-              font-family: $tipografia-parrafos;
-              font-weight: 700;
+          .info__box{
+           box-sizing: border-box;
+           height: 36px;
+           width: 464px;
+           left: 248px;
+           top: 2798px;
+           border-radius: 4px;
+           background: rgba(0, 0, 0, 0.65);
+           border: 0.5px solid $color-primario-white;
+           border-radius: 3px;
+           margin-bottom: 16px;
+           font-family: $tipografia-parrafos;
+           font-weight: 700;
           }
-          }
-      
+      }
+
+      .exception_box{
+          display: inline-block;
           
-       .more__input{
-              width: 464px;
-              height: 150px;
-              background: rgba(0, 0, 0, 0.65);
-              border: 0.5px solid $color-primario-white;
-              border-radius: 4px;
-              margin-bottom: 16px;
-              font-family: $tipografia-parrafos;
-              font-weight: 700;
-              
-       }
-       button {
+      }
+      .more_info__box {
           width: 464px;
-          height: 32px;
-          left: 248px;
-          top: 3178px;
-          flex-wrap: nowrap;
-          color: $color-primario-white;
-          background: $color-primario-black;
-          border-radius: 8px;
-          margin: 10px;
-          font-family: $tipografia-parrafos; 
-       }
-  }
+          height: 150px;
+          background: rgba(0, 0, 0, 0.65);
+          border: 0.5px solid $color-primario-white;
+          border-radius: 4px;
+          margin-bottom: 16px;
+          font-family: $tipografia-parrafos;
+          font-weight: 700;
+      }
+      .submit_button {
+          width: 464px;
+      height: 32px;
+      left: 248px;
+      top: 3178px;
+      flex-wrap: nowrap;
+      color: $color-primario-white;
+      background: $color-primario-black;
+      border-radius: 8px;
+      margin: 10px;
+      font-family: $tipografia-parrafos;
+      }
+}
+    /*Seccion footer*/

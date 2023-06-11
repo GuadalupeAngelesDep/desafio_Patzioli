@@ -18,39 +18,31 @@
    
 
     <!--Seccion contactanos-->
-    <section class="contact__section">
-        <div class="contact-info__container">
-           <h3 class="contact-us">Contáctanos</h3>
-           <p>¿Quieres educarte formalmente en este instrumento? Toca más rápido, logra mayor fluidez en las composiciones complejas. Contáctanos para conocer tus objetivos. </p>
-           <form action="" class="contact-info__container">
-               <div class="info__label">
-                   <label for="name">Nombre</label>
-               </div>
-               <div class="info__input">   
-                   <input type="hidden" name="name" id="name" required>
-               </div>
-               <div class="info__label">
-                <label for="phone">Teléfono</label>
-            </div>
-            <div class="info__input">   
-                <input type="hidden" name="phone" id="phone" required>
-            </div>
-               <div class="info__label">
-                   <label for="email">Email</label>
-               </div>
-               <div class="info__input">  
-                   <input type= "hidden" name="email" id="email" required>
-               </div>
-               <div class="info__label">
-                   <label for="more">Cuéntanos más</label>
-               </div>
-               <div class="more__input">   
-                   <input type="hidden" name="more" id="more">
-               </div>
-               <button type="submit">Enviar</button>
-           </form>
+    <article class="contact__box">
+        <div class="contact_text">
+            <h3>Contáctanos</h3>
+            <span>¿Quieres educarte formalmente en este instrumento? Toca más rápido, logra mayor fluidez en las composiciones complejas. Contáctanos para conocer tus objetivos.</span>
         </div>
-       </section> 
+        <form action="" class="contact__container">
+            <div class="info__container">
+                <div class="info__text">Nombre</div>
+                <input type="text" class="info__box" required>
+            </div>
+            <div class="info__container exception_box">
+                <div class="info__text">Teléfono</div>
+                <input type="tel" class="info__box" required>
+            </div>
+            <div class="info__container exception_box">
+                <div class="info__text">Email</div>
+                <input type="email" class="info__box" required>
+            </div>
+            <div class="info__container">
+                <div class="info__text">Cuéntanos más</div>
+                <input type="text" class="more_info__box">
+            </div>
+            <input type="submit" class="submit_button" value="Enviar">
+        </form>
+    </article> 
 
 
 </body>
