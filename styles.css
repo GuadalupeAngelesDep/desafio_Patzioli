@@ -6,10 +6,10 @@
   justify-content: space-between;
 }
 
-.navmenu {
+.intro_nav_menu {
   display: flex;
-  width: 300px;
   justify-content: flex-end;
+  width: 800px;
 }
 
 .list {
@@ -42,7 +42,7 @@
   left: 20px;
 }
 
-.art {
+.intro_art {
   margin-bottom: 30px;
 }
 
@@ -107,6 +107,7 @@
   height: 100px;
   position: relative;
   bottom: 150px;
+  display: none;
 }
 
 .intro_facebook {
@@ -122,10 +123,16 @@
 }
 
 @media only screen and (min-width: 992px) {
+  .intro_nav_menu {
+    display: flex;
+  }
   .list {
     display: flex;
-    justify-content: flex-end;
+    width: 200px;
     list-style: none;
+    display: block;
+  }
+  .intro_aside {
     display: block;
   }
 }
