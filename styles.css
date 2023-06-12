@@ -1,0 +1,60 @@
+.footer {
+  height: 900px;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(0, 0, 0, 0.75) 37.19%,
+    rgba(0, 0, 0, 0.75) 76.04%,
+    #ffffff 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer__img {
+  width: 224px;
+  height: 280px;
+  margin-right: 30px;
+}
+
+.footer__aboutUs--title {
+  text-align: center;
+  margin: 0px 0 20px 0;
+  color: #000000;
+  font-family: "Abril Fatface", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 25px 15px;
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 360px;
+  text-align: center;
+}
+
+.footer__contact--title {
+  text-align: center;
+  margin: 0px 0 20px 0;
+  color: #000000;
+  font-family: "Abril Fatface", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 25px 15px;
+}
+
+.footer__address {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 15px;
+}
