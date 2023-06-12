@@ -18,6 +18,8 @@ body {
     gap: 1rem;
 }
 
+
+
 .target_piano {
     display: flex;
     flex-direction: column;
@@ -35,6 +37,8 @@ body {
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 0;
+    border-top: 2px dotted gray;
+    padding-top: 10px;
 }
 
 .container_description {
@@ -63,6 +67,7 @@ body {
 
 .Piano__size {
     height: 180px;
+    
 }
 
 .car {
@@ -78,17 +83,54 @@ body {
     border: 1px solid $color-primario-black;
 }
 
+.Section_catalog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .button_view {
+        justify-content: center;
+        color: white;
+        background-color: black;
+        border-radius: 8px;
+        width: 129px;
+        height: 32px;
+        margin-top: 100px;
+    }
+    
+}    
+
 /*Seccion contactanos*/
 
 /*Seccion footer*/
 
-@media only screen and (min-width: 992) {
+@media only screen and (min-width:992px) {
     .target_piano {
-        position: absolute;
-    .Piano_catalog > .target_piano {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        position: relative;
+        margin-top: 100px;  
+        height: 230px; 
+        
     }
+    .Piano__size {
+        position: absolute;
+        top: -100px;
+        left: 20px;
+        right: 5px;
+    }
+    .target_piano > h4 {
+        margin-top: 100px;
+    }
+
+    #piano_catalog {
+        gap: 3rem;
+    }
+
+    .Section_catalog > h2 {
+        font-size: 32px;
+        
     }
 }
