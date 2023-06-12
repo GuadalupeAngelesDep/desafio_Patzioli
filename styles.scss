@@ -8,11 +8,6 @@
     border: none;
 }
 
-
-
-
-
-
 .app_header {
     margin: 0px;
     padding: 0px;
@@ -20,19 +15,12 @@
     
     display: flex;
     justify-content: space-between;
-    
-
-    // justify-content: space-between;
-    
 }
-
-
 
 .intro_nav_menu {
     display: flex; //este permite que el de abajo funcione//
     justify-content: flex-end;//esto hace el cart quedarse a la derecha//
     width: 800px;
-    
 }
 
 .list {
@@ -45,54 +33,39 @@
     padding: 10px;
 }
 
-
-
-
-
 .button_contact {
     background-color: $buttoncolor;
     color: $textColor;
     @include ContactButton();
 }
 
-
-
 .intro_section_cart{
     position: relative;
     // bottom: 30px;
     // left: 10px;
-    
 }
 
 .intro_picture_cart{
     position: relative;
     bottom: 30px;
     left: 20px;
-    
-
 }
 
 .intro_art {
     margin-bottom: 30px;
 }
 
-
-
-
-
 .intro_instituto{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    
 }
 
 .intro_buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .intro_courses {
@@ -140,30 +113,25 @@
     // flex-wrap: wrap-reverse;
     align-items: end;
     justify-content: space-between;
-    
-    
-    
 }
+
 .intro_aside{
     height: 100px;
     position: relative;
     bottom: 150px;
     display: none;
-    
 }
-
 
 .intro_facebook{
     margin: 10px;
-
 }
+
 .intro_linkedin{
     margin: 10px;
-    
 }
+
 .intro_twitter{
     margin: 10px;
-    
 }
 
 
@@ -174,16 +142,13 @@
     
     
     .list{
-        
         display: flex;
         // flex-direction: row;
         // justify-content: flex-end;
         width: 200px;
         list-style: none;
-        display: block;
-        
-        
-    }
+        display: block; 
+        }
 
     .intro_aside{
         display: block;
