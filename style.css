@@ -11,24 +11,19 @@
 }
 
 .contact__box {
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./imagenes/darius-soodmand-F8E2tks5N04-unsplash\ 1\ \(1\).png);
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./darius-soodmand-F8E2tks5N04-unsplash\ 1.png);
   background-position: center;
   background-size: cover;
   width: 100vw;
   height: 870px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .contact__container {
+  width: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  position: relative;
 }
 
 .contact_text {
@@ -39,20 +34,17 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-top: 100px;
   position: relative;
 }
 
 @media only screen and (max-width: 960px) {
   .contact__box {
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./imagenes/darius-soodmand-F8E2tks5N04-unsplash\ 1\ \(1\).png);
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.35) 100%), url(./darius-soodmand-F8E2tks5N04-unsplash\ 1.png);
     background-position: center;
     background-size: cover;
     width: 100vw;
     height: 870px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   h3 {
     font-family: "Abril Fatface";
@@ -102,6 +94,10 @@
     font-family: "Raleway";
     font-weight: 700;
   }
+  .exception_box {
+    display: flex;
+    flex-direction: column;
+  }
   .more_info__box {
     width: 288px;
     height: 150px;
@@ -130,7 +126,6 @@
 /*Seccion inicio*/
 /*Seccion Nuevos*/
 /*Seccion catalogo*/
-/*Seccion contactanos*/
 @media only screen and (min-width: 960px) {
   h3 {
     font-family: "Abril Fatface";
@@ -184,7 +179,11 @@
     font-weight: 700;
   }
   .exception_box {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+  }
+  .exception_box .exception_phone > .info__text {
+    width: 100px;
   }
   .more_info__box {
     width: 464px;
@@ -209,4 +208,5 @@
     font-family: "Raleway";
   }
 }
+/*Seccion contactanos*/
 /*Seccion footer*//*# sourceMappingURL=style.css.map */
