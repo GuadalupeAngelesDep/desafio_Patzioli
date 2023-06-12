@@ -1,4 +1,6 @@
+@import "variables";
 /*Styles de mobile*/
+
    /*Seccion inicio*/
 
     /*Seccion Nuevos*/
@@ -7,9 +9,16 @@
 
     /*Seccion contactanos*/
 
+
+
+
     /*Seccion footer*/
 
 // @media only screen and(min-width:768px) {
+//     .button__container {
+//         display: inline-block; 
+
+//     }
     /*Styles de desktop*/
    /*Seccion inicio*/
 
@@ -20,11 +29,13 @@
     /*Seccion contactanos*/
 
     /*seccion botones*/
+
+// }
     .div__container--buttons {
         background: url(imagenes/Rectangle\ 9.png);
         opacity: 1;
+        
     }
-
 
     .container__button {
         display: flex;
@@ -32,10 +43,18 @@
         justify-content: space-around;        
     }
 
-    .text__title--center {           
+    .text__title--center {                 
         height: 62px;
-        text-align: center;
         color: black;
+        font-family: 'Abril Fatface';
+        font-style: normal;
+        font-size: 32px;
+        line-height: 43px;
+
+        text-align: center;
+        letter-spacing: 0.05em;
+
+        
     }
 
     .button__container {
@@ -43,13 +62,37 @@
         height: 103.21px;
         border-radius: 55px;
         margin: 20px;
-        background-color: black
+        background-color: black;
+        font-family: ipografia-parrafos;
+        
+        
     }
-    .image__circle--logo {        
-        display: flex;
+
+    @media only screen and (min-width:992px) {
+        .button__container {
+            display: inline-block; 
+            
+        }    
+    }
+
+    .image__circle--logo { 
+        display: flex;      
         padding: 5px;      
-        .text__item-petrof {          
-            display: inline-block;
+        .text__item-petrof {  
+            display: inline-block;           
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-left: 90px; 
+                     
+        }
+    }
+
+    .image__circle--logo1 { 
+        display: flex;       
+        padding: 5px;      
+        .text__item-parispian { 
+            display: inline-block;             
             color: white;
             padding: 20px;
             text-align: center;
@@ -57,24 +100,12 @@
         }
     }
 
-    .image__circle--logo1 {        
-        display: flex;
-        padding: 5px;      
-        .text__item-parispian {          
-            display: inline-block;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            margin-left: 90px;
-        }
-    }
-
-    .image__circle--logo2 {        
-        display: flex;
+    .image__circle--logo2 {   
+        display: flex;     
         padding: 5px;   
         flex-direction: row-reverse;   
-        .text__item-helfilti {          
-            display: inline-block;
+        .text__item-helfilti {
+            display: inline-block;             
             color: white;
             padding: 20px;
             text-align: center;
@@ -82,12 +113,12 @@
         }
     }
 
-    .image__circle--logo3 {        
-        display: flex;
+    .image__circle--logo3 { 
+        display: flex;        
         padding: 5px;   
         flex-direction: row-reverse;   
-        .text__item-bookpa {          
-            display: inline-block;
+        .text__item-bookpa { 
+            display: inline-block;            
             color: white;
             padding: 20px;
             text-align: center;
@@ -95,12 +126,13 @@
         }
     }
 
-    .image__circle--logo4 {        
-        display: flex;
+    .image__circle--logo4 {  
+        display: flex;      
         padding: 5px; 
-        flex-direction: row-reverse;     
-        .text__item-yamaha {          
-            display: inline-block;
+        flex-direction: row-reverse; 
+        justify-content: space-evenly;   
+        .text__item-yamaha { 
+            display: inline-block;            
             color: white;
             padding: 20px;
             text-align: center;
@@ -108,11 +140,11 @@
         }
     }
 
-    .image__circle--logo5 {        
-        display: flex;
+    .image__circle--logo5 {   
+        display: flex;     
         padding: 5px;      
-        .text__item-pianotwo {          
-            display: inline-block;
+        .text__item-pianotwo { 
+            display: inline-block;           
             color: white;
             padding: 20px;
             text-align: center;
@@ -120,17 +152,29 @@
         }
     }
 
-    .image__circle--logo6 {        
-        display: flex;
+    .image__circle--logo6 { 
+        display: flex;       
         padding: 5px;      
-        .text__item-pianafmar {          
-            display: inline-block;
+        .text__item-pianafmar { 
+            display: inline-block;          
             color: white;
             padding: 20px;
             text-align: center;
             margin-left: 90px;
         }
     }
+
+    // @media only screen and(min-width:400px) {
+    //  .div__button--petrof {
+    //     display: none;
+    //  }
+
+
+
+
+
+
+    
 
 
 
