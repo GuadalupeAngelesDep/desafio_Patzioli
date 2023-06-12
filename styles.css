@@ -1,7 +1,7 @@
 .app_header {
   margin: 0px;
   padding: 0px;
-  height: 44px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -9,7 +9,7 @@
 .intro_nav_menu {
   display: flex;
   justify-content: flex-end;
-  width: 800px;
+  width: 300px;
 }
 
 .list {
@@ -44,6 +44,16 @@
 
 .intro_art {
   margin-bottom: 30px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #858585;
 }
 
 .intro_instituto {
@@ -51,6 +61,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  letter-spacing: 0.09em;
 }
 
 .intro_buttons {
@@ -71,6 +88,7 @@
   font-size: 20px;
   margin-right: 13px;
   margin-top: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 .intro_get {
@@ -85,6 +103,7 @@
   font-size: 20px;
   margin-left: 13px;
   margin-top: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 .intro_piano {
@@ -127,12 +146,33 @@
     display: flex;
   }
   .list {
-    display: flex;
-    width: 200px;
+    width: 450px;
     list-style: none;
     display: block;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
   }
   .intro_aside {
     display: block;
+  }
+  .intro_home {
+    margin-right: 50px;
+  }
+  .intro_pianos {
+    margin-right: 12px;
+  }
+  .intro_student {
+    margin-right: 20px;
+    width: 150px;
+  }
+  .intro_nav_menu {
+    width: 1000px;
   }
 }/*# sourceMappingURL=styles.css.map */

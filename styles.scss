@@ -8,29 +8,33 @@
     border: none;
 }
 
+$font-abril-fatface: 'Abril Fatface', cursive;
+$font-raleway: 'Raleway', sans-serif;
+
 .app_header {
     margin: 0px;
     padding: 0px;
-    height: 44px;
-    
+    height: 50px;
+
     display: flex;
     justify-content: space-between;
 }
 
 .intro_nav_menu {
     display: flex; //este permite que el de abajo funcione//
-    justify-content: flex-end;//esto hace el cart quedarse a la derecha//
-    width: 800px;
+    justify-content: flex-end; //esto hace el cart quedarse a la derecha//
+    width: 300px;
 }
 
 .list {
-        display: none;
+    display: none;
 }
 
 .company_icon {
     display: flex;
     justify-content: flex-start;
     padding: 10px;
+
 }
 
 .button_contact {
@@ -39,13 +43,13 @@
     @include ContactButton();
 }
 
-.intro_section_cart{
+.intro_section_cart {
     position: relative;
     // bottom: 30px;
     // left: 10px;
 }
 
-.intro_picture_cart{
+.intro_picture_cart {
     position: relative;
     bottom: 30px;
     left: 20px;
@@ -53,13 +57,30 @@
 
 .intro_art {
     margin-bottom: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #858585;
 }
 
-.intro_instituto{
+.intro_instituto {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    letter-spacing: 0.09em;
 }
 
 .intro_buttons {
@@ -80,6 +101,7 @@
     font-size: 20px;
     margin-right: 13px;
     margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .intro_get {
@@ -94,19 +116,20 @@
     font-size: 20px;
     margin-left: 13px;
     margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.intro_piano{
+.intro_piano {
     display: flex;
-    justify-content: center; 
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
     height: 200px;
     margin-top: 60px;
 }
 
 
 
-.intro_socials{
+.intro_socials {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -115,43 +138,68 @@
     justify-content: space-between;
 }
 
-.intro_aside{
+.intro_aside {
     height: 100px;
     position: relative;
     bottom: 150px;
     display: none;
 }
 
-.intro_facebook{
+.intro_facebook {
     margin: 10px;
 }
 
-.intro_linkedin{
+.intro_linkedin {
     margin: 10px;
 }
 
-.intro_twitter{
+.intro_twitter {
     margin: 10px;
 }
 
 
 @media only screen and (min-width:992px) {
-    .intro_nav_menu{
+    .intro_nav_menu {
         display: flex;
     }
-    
-    
-    .list{
-        display: flex;
-        // flex-direction: row;
-        // justify-content: flex-end;
-        width: 200px;
-        list-style: none;
-        display: block; 
-        }
 
-    .intro_aside{
+
+    .list {
+        width: 450px;
+        list-style: none;
+        display: block;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.05em;
+        
+    }
+
+    .intro_aside {
         display: block;
     }
-}
 
+    .intro_home{
+        margin-right: 50px;
+    }
+
+    .intro_pianos{
+        margin-right: 12px;
+    }
+
+    .intro_student{
+        margin-right: 20px;
+        width: 150px;
+        
+    }
+
+    .intro_nav_menu{
+        width: 1000px;
+    }
+
+}
