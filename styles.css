@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 .app_header {
   margin: 0px;
   padding: 0px;
@@ -9,7 +13,7 @@
 .intro_nav_menu {
   display: flex;
   justify-content: flex-end;
-  width: 300px;
+  width: 100px;
 }
 
 .list {
@@ -30,6 +34,8 @@
   background-color: black;
   border-radius: 5px;
   border: none;
+  font-family: "Raleway";
+  font-size: 15px;
 }
 
 .intro_section_cart {
@@ -39,11 +45,13 @@
 .intro_picture_cart {
   position: relative;
   bottom: 30px;
-  left: 20px;
+  left: 15px;
 }
 
 .intro_art {
-  margin-bottom: 30px;
+  position: relative;
+  bottom: 15px;
+  padding-top: 30px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
@@ -70,10 +78,18 @@
   letter-spacing: 0.09em;
 }
 
+.intro_pazioli {
+  position: relative;
+  bottom: 55px;
+  font-size: 38px;
+}
+
 .intro_buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  position: relative;
+  bottom: 100px;
 }
 
 .intro_courses {
@@ -141,6 +157,13 @@
   margin: 10px;
 }
 
+.intro_picture_piano {
+  width: 249.69px;
+  height: 190px;
+  position: relative;
+  bottom: 125px;
+}
+
 @media only screen and (min-width: 992px) {
   .intro_nav_menu {
     display: flex;
@@ -161,6 +184,8 @@
   }
   .intro_aside {
     display: block;
+    position: relative;
+    right: 10px;
   }
   .intro_home {
     margin-right: 50px;
@@ -173,6 +198,22 @@
     width: 150px;
   }
   .intro_nav_menu {
-    width: 1000px;
+    width: 600px;
+  }
+  .intro_get {
+    font-size: 18px;
+  }
+  .intro_courses {
+    font-size: 18px;
+  }
+  .intro_pazioli {
+    font-size: 56px;
+    bottom: 55px;
+  }
+  .intro_picture_piano {
+    width: 584px;
+    height: 450px;
+    position: relative;
+    bottom: 35px;
   }
 }/*# sourceMappingURL=styles.css.map */
