@@ -1,10 +1,15 @@
+
 /*Colocar Varibles a utilizar como fuente general,
+
+/*Styles de mobile*/ /*Colocar Varibles a utilizar como fuente general,
+
 colores, estilos en comun etc.*/
 /*Seccion inicio*/
 /*Seccion Nuevos*/
 /*Seccion catalogo*/
 /*Seccion contactanos*/
 /*Seccion footer*/
+
 /*Styles de mobile*/
 body {
   background-color: #F5F5F5;
@@ -124,3 +129,150 @@ body {
     font-size: 32px;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/*Seccion inicio*/
+/*Seccion Nuevos*/
+#seccion_new {
+  text-align: center;
+  background-image: url(./imagenes/fondo_new.jpeg), linear-gradient(180deg, #ffffff 0%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 80.04%, #ffffff 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#seccion_new h2 {
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1rem;
+}
+
+.container_flex_new {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container_img_piano_new img {
+  width: 70vw;
+  margin-bottom: 0;
+}
+
+.container_info {
+  color: #ffffff;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  height: 480px;
+}
+
+.container_info h3 {
+  margin-top: 0.05rem;
+  font-family: "Abril Fatface";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1px;
+}
+
+.container_info p {
+  font-family: "Raleway";
+}
+
+.container_valoration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 5px;
+  line-height: 1px;
+}
+
+.lis_description_new {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+.lis_description_new .new_list {
+  list-style-type: none;
+}
+
+.add_list {
+  width: 228px;
+  height: 32px;
+  left: 45.55px;
+  top: 1312px;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/*Seccion catalogo*/
+/*Seccion contactanos*/
+/*Seccion footer*/
+@media (min-width: 992px) {
+  /*Styles de desktop*/
+  /*Seccion inicio*/
+  /*Seccion Nuevos*/
+  #seccion_new {
+    background-size: cover;
+    background-image: url(./imagenes/fondo_new.jpeg);
+    box-sizing: border-box;
+  }
+  #seccion_new h2 {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 0rem;
+  }
+  .container_flex_new {
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* Apartir de aqui cambiar stilos para adaptar y leminar los que se repitan y que 
+    no se les haran modificaciones*/
+  .container_img_piano_new img {
+    width: 40vw;
+  }
+  .container_info {
+    width: 30vw;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  .container_info h3 {
+    font-size: 2 rem;
+    font-weight: 900;
+  }
+  .container_valoration {
+    justify-content: flex-start;
+    width: 40vw;
+    gap: 5px;
+    line-height: 40px;
+  }
+  .lis_description_new .new_list {
+    list-style-type: none;
+  }
+  .add_list {
+    width: 228px;
+    height: 32px;
+    left: 45.55px;
+    top: 1312px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  /*Seccion catalogo*/
+  /*Seccion contactanos*/
+  /*Seccion footer*/
+}
+@media (max-width: 992px) {
+  .container_info {
+    margin-top: 8%;
+  }
+}
+@media (max-width: 600px) {
+  .container_info {
+    margin-top: 2%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
